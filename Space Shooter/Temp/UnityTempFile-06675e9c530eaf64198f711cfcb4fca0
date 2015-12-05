@@ -80,3 +80,4 @@ Assets/Done/Done_Scripts/Done_Mover.cs
 Assets/Done/Done_Scripts/Done_PlayerController.cs
 Assets/Done/Done_Scripts/Done_RandomRotator.cs
 Assets/Done/Done_Scripts/Done_WeaponController.cs
+Assets/Scripts/PlayerController.cs
