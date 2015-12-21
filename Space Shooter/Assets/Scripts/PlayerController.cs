@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour {
     public float fireRate;
     public float nextFire;
 
+
     // Use this for initialization
     void Start () {
 	
