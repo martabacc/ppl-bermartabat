@@ -40,16 +40,25 @@ public class DestroyByContact : MonoBehaviour {
         }
 
 		Instantiate(explosion, transform.position, transform.rotation);
-		if (other.tag == "Player") {
+
+		if (other.tag == "Player") 
+		{
 			Instantiate (playerExplosion, other.transform.position, other.transform.rotation);
+
+			/* if collide player,
+			 * game over function called
+			 */
+			gameController.GameOver ();
 		}
-
-        Destroy(other.gameObject);
-        Destroy(gameObject);
-
+		
 		/* add UpdateScore()
 		 * dari file GameController
 		 */
 		gameController.AddScore( scoreValue );
+
+        Destroy(other.gameObject);
+        Destroy(gameObject);
+
+
     }
 }
