@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class Nice : MonoBehaviour {
+public class InputName : MonoBehaviour {
 
 	//public GameController gameController;
 	public GameObject formInput;
