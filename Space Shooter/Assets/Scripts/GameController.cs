@@ -27,6 +27,7 @@ public class GameController : MonoBehaviour {
 	void Start()
 	{
 		/*initiating score*/
+		nameText.text = StateManager.Instance.NamaPemain;
 
 		score = 0;
 		gameOver = false;

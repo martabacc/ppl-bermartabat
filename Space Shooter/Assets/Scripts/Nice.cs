@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class Nice : MonoBehaviour {
 
-	public GameController gameController;
+	//public GameController gameController;
 	public GameObject formInput;
 	public string stringToEdit = "";
 	public static string TextField;
@@ -29,30 +29,12 @@ public class Nice : MonoBehaviour {
 	{
 		print ("Starting Game..");
 
-
-
 		DontDestroyOnLoad(StateManager.Instance);
+		StateManager.Instance.NamaPemain = stringToEdit;
+
 		Application.LoadLevel("Main");
 		
-		/* find gameController yang mana yang 
-		 * dipanggil saat start
-		 */
-		GameObject tempObject = GameObject.FindWithTag("GameController");
-		//if found ..
-		if (tempObject)
-		{
-			gameController = tempObject.GetComponent<GameController>();
-		}
-		else
-		{
-			/* Throw notifications
-			 * through the console
-			 */
-			Debug.Log ("Cannot Find 'GameController script!!");
-		}
 
-
-		gameController.nameText.text = stringToEdit;
 		StateManager.Instance.StartState();
 
 

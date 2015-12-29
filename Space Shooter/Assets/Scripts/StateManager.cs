@@ -5,6 +5,7 @@ using System.Collections;
 public class StateManager : MonoBehaviour {
 
 	private static StateManager instance;
+	public string NamaPemain = "";
 
 	/*untuk mengakses kelas gameController*/
 	public GameController gameController;

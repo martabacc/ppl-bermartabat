@@ -18,6 +18,7 @@ public class GameStarter : MonoBehaviour {
 	{
 		print ("Starting Game..");
 		DontDestroyOnLoad(StateManager.Instance);
+
 		Application.LoadLevel("InputName");
 		StateManager.Instance.StartState();
 
