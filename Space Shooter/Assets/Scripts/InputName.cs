@@ -39,6 +39,6 @@ public class InputName : MonoBehaviour {
 
 
 		
-		
 	}
 }
+
