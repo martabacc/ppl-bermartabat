@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///D:/PROGRAM FILES/VS2013/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-12-29T10:25:09" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1' -  (ModelStoreModel)" />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::GameStarter' -  (Class)" />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GameStarter::GameStarter' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GameStarter::OnGUI' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::GameStarter::StartGame' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::UnityEngine' -  (Package)" />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::UnityEngine::MonoBehaviour' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GameStarter to ModelingProject1::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::RandomRotator to ModelingProject1::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::GameController to ModelingProject1::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::PlayerController to ModelingProject1::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Mover to ModelingProject1::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::DestroyByTime to ModelingProject1::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::StateManager to ModelingProject1::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::DestroyByBoundary to ModelingProject1::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::Nice to ModelingProject1::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::DestroyByContact to ModelingProject1::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="High" Text="(1) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2015-12-29T10:25:11" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///D:/PROGRAM FILES/VS2013/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2015-12-29T10:49:10" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru' -  (ModelStoreModel)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Medium" Text="Element reverse engineered into the UML model: 'baru::Boundary' -  (Class)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::Boundary::Boundary' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::Boundary::xMax' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::Boundary::xMin' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::Boundary::zMax' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::Boundary::zMin' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Medium" Text="Element reverse engineered into the UML model: 'baru::DestroyByBoundary' -  (Class)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::DestroyByBoundary::DestroyByBoundary' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::DestroyByBoundary::OnTriggerExit' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::DestroyByBoundary::OnTriggerExit::other' -  (Parameter)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Medium" Text="Element reverse engineered into the UML model: 'baru::DestroyByContact' -  (Class)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::DestroyByContact::DestroyByContact' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::DestroyByContact::explosion' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::DestroyByContact::gameController' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::DestroyByContact::OnTriggerEnter' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::DestroyByContact::OnTriggerEnter::other' -  (Parameter)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::DestroyByContact::playerExplosion' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::DestroyByContact::scoreValue' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::DestroyByContact::Start' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Medium" Text="Element reverse engineered into the UML model: 'baru::DestroyByTime' -  (Class)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::DestroyByTime::DestroyByTime' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::DestroyByTime::lifetime' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::DestroyByTime::Start' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::DestroyByTime::Update' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Medium" Text="Element reverse engineered into the UML model: 'baru::GameController' -  (Class)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::AddScore' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::AddScore::newScoreValue' -  (Parameter)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::GameController' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::gameOver' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::GameOver' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::gameOverText' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::hazard' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::hazardCount' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::highScore' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::menuButton' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::nameText' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::restart' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::restartButton' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::restartText' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::score' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::scoreText' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::spawnValues' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::spawnWait' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::SpawnWaves' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::Start' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::startWait' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::Update' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::UpdateScore' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameController::waveWait' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Medium" Text="Element reverse engineered into the UML model: 'baru::GameStarter' -  (Class)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameStarter::GameStarter' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameStarter::OnGUI' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::GameStarter::StartGame' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Medium" Text="Element reverse engineered into the UML model: 'baru::Mover' -  (Class)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::Mover::Mover' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::Mover::rb' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::Mover::speed' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::Mover::Start' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Medium" Text="Element reverse engineered into the UML model: 'baru::PlayerController' -  (Class)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::PlayerController::boundary' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::PlayerController::fireRate' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::PlayerController::FixedUpdate' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::PlayerController::nextFire' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::PlayerController::PlayerController' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::PlayerController::rb' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::PlayerController::shot' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::PlayerController::shotSpawn' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::PlayerController::speed' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::PlayerController::Start' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::PlayerController::tilt' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::PlayerController::Update' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Medium" Text="Element reverse engineered into the UML model: 'baru::RandomRotator' -  (Class)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::RandomRotator::RandomRotator' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::RandomRotator::rb' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::RandomRotator::Start' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::RandomRotator::tumble' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Medium" Text="Element reverse engineered into the UML model: 'baru::StateManager' -  (Class)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::StateManager::gameController' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::StateManager::instance' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::StateManager::Instance' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::StateManager::NamaPemain' -  (Property)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::StateManager::OnApplicationQuit' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::StateManager::StartState' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::StateManager::StateManager' -  (Operation)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::System' -  (Package)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::System::Collections' -  (Package)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::System::Collections::IEnumerator' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::System::Single' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::UnityEngine' -  (Package)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::UnityEngine::Collider' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::UnityEngine::GameObject' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::UnityEngine::GUIText' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::UnityEngine::MonoBehaviour' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::UnityEngine::Rigidbody' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::UnityEngine::Transform' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'baru::UnityEngine::Vector3' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: baru::GameController to baru::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: baru::GameStarter to baru::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: baru::Mover to baru::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: baru::PlayerController to baru::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: baru::RandomRotator to baru::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: baru::StateManager to baru::StateManager (Association)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: baru::StateManager to baru::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: baru::DestroyByBoundary to baru::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: baru::DestroyByContact to baru::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: baru::DestroyByTime to baru::UnityEngine::MonoBehaviour (Generalization)" />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="High" Text="(10) type(s) fully reverse engineered." />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="High" Text="(9) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2015-12-29T10:49:15" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>
