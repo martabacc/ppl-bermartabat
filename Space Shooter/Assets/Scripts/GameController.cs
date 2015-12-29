@@ -1,11 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Reflection;
 using System.Collections;
 
 public class GameController : MonoBehaviour {
 
 	public Vector3 spawnValues;
 	public GameObject hazard;
+	public GameObject restartButton;
+	public GameObject menuButton;
 
 	public int hazardCount; //untuk wave of hazard, looping
 	public float spawnWait; //wait time value for waving hazard attack
@@ -22,12 +25,16 @@ public class GameController : MonoBehaviour {
 	private int score;
 	private bool gameOver;
 	private bool restart;
+	private int highScore;
 
 
 	void Start()
 	{
 		/*initiating score*/
 		nameText.text = StateManager.Instance.NamaPemain;
+
+		highScore=PlayerPrefs.GetInt("highScore");
+		print(highScore);
 
 		score = 0;
 		gameOver = false;
@@ -39,6 +46,7 @@ public class GameController : MonoBehaviour {
 		UpdateScore();
 		//to instantiate the hazard, calling itself
 		StartCoroutine(SpawnWaves()); 
+
 	}
 
 	void Update()
@@ -74,6 +82,7 @@ public class GameController : MonoBehaviour {
 				yield return new WaitForSeconds(spawnWait);
 
 
+
 				
 			}
 			yield return new WaitForSeconds(waveWait);
@@ -83,6 +92,12 @@ public class GameController : MonoBehaviour {
 			 */
 			if(gameOver)
 			{
+				if(score > highScore){
+					print("New high score" + score);
+				}
+
+				highScore = score;
+				PlayerPrefs.SetInt("highScore",highScore);
 				restartText.text = "Press R to Restart";
 				restart = true;
 				break;
